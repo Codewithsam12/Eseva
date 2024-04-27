@@ -1,2 +1,2 @@
 # Eseva
-The eSeva project is like a super helpful website created to make it easy for people to use government services online. This project is all about building a special platform that connects regular folks with the government in a smooth and easy way. 
+ The eSeva project is like a super helpful website created to make it easy for people to use government services online. This project is all about building a special platform that connects regular folks with the government in a smooth and easy way.  The main goals of our project are to make government services work better and to make them easy for everyone to use. We want to create a website that helps people interact with the government without any confusion.

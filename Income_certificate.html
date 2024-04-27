@@ -1,0 +1,138 @@
+<?php include('server.php') ?>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Income Certificate Application</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <div class="header">
+        <h2>Income Certificate Application</h2>
+    </div>
+
+    <form method="post" action="pan_card.html">
+
+        <div class="input-group">
+            <label>Income Years*</label>
+            <select name="years" id="years" required>
+                <option value="select">Select the Income Year</option>
+                <option value="3">For 3 Years</option>
+                <option value="1">For 1 Year</option>
+            </select>
+        </div>
+
+        <div class="input-group">
+            <label>Full Name*</label>
+            <input type="text" name="name" value="" placeholder="Enter Your Full Name" required autocomplete="off">
+        </div>
+        <div class="input-group">
+            <label>Date Of Birth*</label>
+            <input type="date" name="DOB" value="" placeholder="Enter Your Date Of Birth " required autocomplete="off">
+        </div>
+        <div class="input-group">
+            <label>Age*</label>
+            <input type="text" name="age" value="" placeholder="Enter Your Age" required autocomplete="off">
+        </div>
+        <div class="input-group">
+            <label>Mobile Number*</label>
+            <input type="text" name="mobile_no" value="" placeholder="Enter Your Mobile Number" required
+                autocomplete="off">
+        </div>
+        <div class="input-group">
+            <label>Gender*</label>
+            <select name="Gender" id="Gender" required>
+                <option value="select">Select</option>
+                <option value="Father">Male</option>
+                <option value="Mother">Female</option>
+                <option value="Third Gender">Third Gender</option>
+            </select>
+        </div>
+        <div class="input-group">
+            <label>E-mail Id*</label>
+            <input type="text" name="Email" value="" placeholder="Enter Your Email Id" required autocomplete="off">
+        </div>
+
+        <div class="input-group">
+            <label>Occuption*</label>
+            <select name="occuption" id="occuption">
+                <option value="Select the occuption">Select the Occuption</option>
+                <option value="teacher">Teacher</option>
+                <option value="Student">Student</option>
+                <option value="12th">12th</option>
+                <option value="10th">10th</option>
+                <option value="farmer">Farmer</option>
+                <option value="house_wife">HouseWife</option>
+                <option value="Engg">Engineer</option>
+                <option value="business">Business</option>
+                <option value="lawyer">Lawyer</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <div class="input-group">
+            <label>Aadhar Number*</label>
+            <input type="text" name="aadhar_no" value="" placeholder="Enter Your Aadhar Number" required
+                autocomplete="off">
+        </div>
+        <div class="input-group">
+            <label>Applicant Nationality*</label>
+            <input type="text" name="nationality" value="Indian" placeholder="Enter Your Aadhar Number" required
+                autocomplete="off" readonly>
+        </div>
+        <div class="input-group">
+            <label>Address*</label>
+            <input type="text" name="Address" value="" placeholder="Enter Your Address" required autocomplete="off">
+        </div>
+        <div class="input-group">
+            <label>Building*</label>
+            <input type="text" name="building" value="" placeholder="Enter Your Building" required autocomplete="off">
+        </div>
+        <div class="input-group">
+            <label>Section*</label>
+            <input type="text" name="section" value="" placeholder="Enter Your Section" required autocomplete="off">
+        </div>
+        <div class="input-group">
+            <label>Street*</label>
+            <input type="text" name="Landmark" value="" placeholder="Enter Your Street" required autocomplete="off">
+        </div>
+        <div class="input-group">
+            <label>Landmark*</label>
+            <input type="text" name="Address" value="" placeholder="Enter Your Landmark" required autocomplete="off">
+        </div>
+        <div class="input-group">
+            <label>District*</label>
+            <input type="text" name="dist" value="" placeholder="Enter Your District" required autocomplete="off">
+
+        </div>
+        <div class="input-group">
+            <label>Taluka*</label>
+            <input type="text" name="tal" value="" placeholder="Enter Your Taluka" required autocomplete="off">
+
+        </div>
+        <div class="input-group">
+            <label>Villege*</label>
+            <input type="text" name="villege" value="" placeholder="Enter Your Villege" required autocomplete="off">
+
+        </div>
+        </div>
+        <div class="input-group">
+            <label>Pincode*</label>
+            <input type="text" name="pin" value="" placeholder="Enter Your Villege" required autocomplete="off">
+
+        </div>
+        <div class="input-group">
+            <label>Family Member Income*</label>
+            <input type="text" name="income" value="" placeholder="Enter Your Family Member Income" required autocomplete="off">
+
+        </div>
+        <div class="input-group">
+            <button type="submit" class="btn" name="Apply"><a href="#">Submit</a></button>
+            <button type="submit" class="btn" name="Apply" style="margin-left:80%; background-color: red;"> <a
+                    href="index.html">Back To Home</a> </button>
+            <br><br>
+        </div>
+    </form>
+</body>
+
+</html>
